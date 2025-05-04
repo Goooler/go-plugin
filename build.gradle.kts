@@ -9,7 +9,7 @@ plugins {
     id("jacoco")
     id("java-gradle-plugin")
     id("com.gradle.plugin-publish") version "1.3.1"
-    id("org.jetbrains.kotlin.jvm") version("1.9.25")
+    id("org.jetbrains.kotlin.jvm") version("2.1.20")
 }
 
 version = "0.7.0"
