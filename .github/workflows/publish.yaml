@@ -26,7 +26,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
       # Validate
       - name: Validate
         env:
